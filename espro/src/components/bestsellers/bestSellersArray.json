@@ -1,0 +1,26 @@
+[
+    {
+        "image": "./p1",
+        "stars": 4,
+        "name": "Espro Coffee French Press P7",
+        "price_range": "109.95 - 139.95"
+    },
+    {
+        "image": "./p2",
+        "stars": 5,
+        "name": "Espro Coffee French Press P6",
+        "price_range": "89.95"
+    },
+    {
+        "image": "./p3",
+        "stars": 5,
+        "name": "Bloom Pour Over Coffee Brewing Kit, 18 oz",
+        "price_range": "99.95"
+    },
+    {
+        "image": "./p4",
+        "stars": 5,
+        "name": "Espro Ultralight Coffee Press P0",
+        "price_range": "44.95"
+    }
+]
