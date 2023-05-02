@@ -1,6 +1,14 @@
 .App {
     overflow-x: hidden;
 }
+body {
+    height: 100svh;
+}
+img {
+    height: auto;
+    width: 100%;
+}
+
 .headerBanner {
     background-color: #8DB9CA;
     color: white;
@@ -45,6 +53,46 @@
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
 }
   
+.flex-center-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroText {
+    max-width: 60rem;
+    margin-inline: auto;
+    height: 80%;
+}
+.heroText h1 {
+    color: white;
+    font-size: 3rem;
+}
+.heroText button {
+    color: black;
+    background-color: white;
+    border: white;
+    border-radius: 30px ;
+    padding: 1rem;
+}
+
+.exploreTag {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    translate: -50%;
+    z-index: 1;
+}
+.exploreTag img {
+    width: 15px;
+    margin-left: 10px;
+}
+.exploreTag span {
+    color: white;
+    font-size: 23px;
+}
   
