@@ -1,0 +1,50 @@
+.App {
+    overflow-x: hidden;
+}
+.headerBanner {
+    background-color: #8DB9CA;
+    color: white;
+    padding: 5px;
+}
+.headerBanner p {
+    padding: 0;
+    margin: 0;
+}
+#header {
+    font-family: Josefin Sans, Bold;
+    background-color: white;
+}
+
+#header .link {
+ padding: 10px;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+#hero {
+    position: relative;
+    isolation: isolate;
+    height: 100vh;
+    width: 100vw;
+}
+
+#hero .background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+  
