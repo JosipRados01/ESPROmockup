@@ -266,3 +266,12 @@ img {
 .inline-margin {
     padding-inline: 50px ;
 }
+
+#cupExperience {
+    height: 100vh;
+    display: flex;
+}
+ #cupExperience >* {
+    flex-grow: 1;
+    max-width: 50%;
+ }

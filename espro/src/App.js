@@ -7,6 +7,7 @@ import BestSellers from './components/bestsellers/BestSellers';
 import bestSellersArray from "./components/bestsellers/bestSellersArray.json"
 import ImageGallery from './components/imageGallery/ImageGallery';
 import Products from './components/products/Products';
+import CupExperience from './components/cupExperience/CupExperience';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <BestSellers array={bestSellersArray} ></BestSellers>
       <ImageGallery></ImageGallery>
       <Products></Products>
+      <CupExperience></CupExperience>
     </div>
   );
 }
