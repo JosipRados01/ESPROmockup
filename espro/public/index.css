@@ -1,9 +1,4 @@
-.App {
-    overflow-x: hidden;
-}
-body {
-    height: 100svh;
-}
+
 img {
     height: auto;
     width: 100%;
@@ -44,7 +39,6 @@ img {
     position: relative;
     isolation: isolate;
     height: 100vh;
-    width: 100vw;
 }
 
 #hero .background {
@@ -147,4 +141,128 @@ img {
     width: 24px;
     translate: -3px -3px;
     
+}
+
+#imageGallery {
+    height: 100vh;
+    background-color: #F3F7F9;
+    position: relative;
+    overflow: hidden;
+}
+
+.galleryText {
+    max-width: 25rem;
+    position: absolute;
+    left: 50%;
+    top: 70px;
+    translate: -50% ;
+}
+
+.galleryImageNumber1 {
+    position: absolute;
+    width: 250px;
+    left: 75px;
+    top: 75px;
+    z-index: 2;
+}
+.galleryImageNumber2 {
+    position: absolute;
+    width: 250px;
+    left: 400px;
+    top: 400px;
+    z-index: 3;
+}
+.galleryImageNumber3 {
+    position: absolute;
+    width: 420px;
+    left: 75px;
+    bottom: 75px;
+    z-index: 2;
+}
+.galleryImageNumber4 {
+    position: absolute;
+    width: 250px;
+    right: 10px;
+    top: 75px;
+    z-index: 2;
+}
+.galleryImageNumber5 {
+    position: absolute;
+    width: 250px;
+    right: 225px;
+    top: 175px;
+    z-index: 3;
+}
+.galleryImageNumber6 {
+    position: absolute;
+    width: 520px;
+    right: 130px;
+    bottom: 75px;
+    z-index: 2;
+}
+
+#galleryDots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dot {
+    width: 3px;
+    height: 3px;
+    background-color: #659AB1;
+    border-radius: 50%;
+    margin: 9px;
+    opacity: 0;
+}
+.dot.show {
+    animation-name: pop-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pop-in {
+    0% {opacity: 1; scale: 0;}
+    50% {scale: 1.5;}
+    100% {scale: 1; opacity: 1;}
+}
+
+.product {
+    position: relative;
+    width: 30%;
+    height: 600px;
+}
+
+.product .front, .product .back {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+} 
+.product .front {
+    z-index: 3;
+}
+.product .back {
+    z-index: 2;
+}
+.product:hover .front {
+    opacity: 0;
+}
+
+.product button {
+    position: absolute;
+    top: 100px;
+    left: 35px;
+    z-index: 2;
+}
+
+.flex-evenly-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inline-margin {
+    padding-inline: 50px ;
 }
