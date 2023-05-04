@@ -15,7 +15,7 @@ useEffect( ()=> {
 
   return (
     <div id='cupExperience'>
-        <div className='experienceText'>
+        <div className='experienceText flex-center-column'>
             <h2>
             MAKE EVERY CUP AN EXPERIENCE.
             </h2>
