@@ -8,6 +8,7 @@ import bestSellersArray from "./components/bestsellers/bestSellersArray.json"
 import ImageGallery from './components/imageGallery/ImageGallery';
 import Products from './components/products/Products';
 import CupExperience from './components/cupExperience/CupExperience';
+import Sponsors from './components/sponsors/Sponsors';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <ImageGallery></ImageGallery>
       <Products></Products>
       <CupExperience></CupExperience>
+      <Sponsors></Sponsors>
     </div>
   );
 }
