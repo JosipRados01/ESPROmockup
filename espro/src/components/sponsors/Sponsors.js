@@ -21,7 +21,7 @@ function Sponsors() {
     }
   return (
 
-    <div>
+    <div id='sponsors'>
         <h3>IN THE PRESS</h3>
         <p>
             “The result is a richly flavored, super aromatic cup of coffee without the usual silt in the bottom. 

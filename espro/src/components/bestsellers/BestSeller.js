@@ -14,7 +14,7 @@ function BestSeller({element}) {
 
         <p><StarRating starsNum={stars} ></StarRating></p>
 
-        <p>{name}</p>
+        <h3>{name}</h3>
         <p>{price_range}</p>
 
         <div className='flex-row'>
