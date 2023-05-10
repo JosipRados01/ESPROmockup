@@ -1,0 +1,51 @@
+#brewGuides {
+    height: 100dvh;
+    box-sizing: border-box;
+    padding: 75px;
+    display: flex;
+    align-items: center;
+}
+#brewGuides >* {
+    width: 50%;
+}
+
+.brewGuidesText >* {
+    text-align: left;
+    max-width: 80% ;
+}
+
+.brewGuidesImage {
+    aspect-ratio: 630/500;
+    background-image: url(../../../public/brewGuides.png);
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    margin: 0;
+}
+.anchor {
+    position: relative;
+}
+
+.brewGuidesImage::after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color:#84AEC1 ;
+    width: 90%;
+    aspect-ratio: 630/500;
+    z-index: -1;
+    transition: 0.3s all;
+}
+
+.brewGuidesImage:hover::after {
+    top: 0px;
+    left: 0px;
+}
+
+.brewGuidesImage img {
+    position: absolute;
+    right: 0;
+    top: -70px;
+    width: 145px;
+}

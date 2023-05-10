@@ -1,0 +1,64 @@
+#footer {
+    
+    text-align: left;
+    background-color: #659AB1;
+    padding: 75px 75px 0 75px;
+}
+
+.neverMissADrop {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tackice {
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links >* {
+    display: flex;
+    flex-direction: column;
+}
+
+.logoDiv {
+    flex-grow: 0.2;
+}
+
+.logoDiv figure {
+    margin: 0;
+
+}
+
+
+
+.socials {
+    display: flex;
+    gap: 10px;
+}
+
+.socials figure {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.145);
+    margin: 0;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    aspect-ratio: 1;
+ }
+
+.socials figure img {
+    width: 100%;
+    aspect-ratio: 1;
+    
+}
+
+ .kraj {
+    display: flex;
+    justify-content: space-around;
+
+ }

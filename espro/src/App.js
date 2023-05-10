@@ -9,6 +9,10 @@ import ImageGallery from './components/imageGallery/ImageGallery';
 import Products from './components/products/Products';
 import CupExperience from './components/cupExperience/CupExperience';
 import Sponsors from './components/sponsors/Sponsors';
+import FreshGrounds from "./components/FreshGrounds/FreshGrounds"
+import BrewGuides from './components/brewGuides/BrewGuides';
+import YourPour from './components/yourPour/YourPour';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -20,6 +24,10 @@ function App() {
       <Products></Products>
       <CupExperience></CupExperience>
       <Sponsors></Sponsors>
+      <FreshGrounds></FreshGrounds>
+      <BrewGuides></BrewGuides>
+      <YourPour></YourPour>
+      <Footer></Footer>
     </div>
   );
 }

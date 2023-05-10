@@ -1,0 +1,10 @@
+#yourPour {
+    background-color:#EFF5F7 ;
+    padding: 75px 0;
+}
+
+.yourPourText {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 75px ;
+}

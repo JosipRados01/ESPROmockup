@@ -378,3 +378,52 @@ img {
         transform: translate(-50%, 0);
     }
 }
+
+#infinite-scroll-reverse {
+    height: 500px;
+    margin: 10px 0px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.photobanner-reverse {
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: bannermove-reverse 60s linear infinite;
+}
+
+.photobanner-reverse figure {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    aspect-ratio: 1;
+    overflow: hidden;
+    height: 350px;
+}
+
+.photobanner-reverse img {
+    margin: 0px;
+    width: auto;
+    height: 100%;
+}
+
+.photobanner-reverse :nth-child(even) {
+    translate: 0 80px;
+    height: 400px;
+}
+
+@keyframes bannermove-reverse {
+    0% {
+        transform: translate(-50%, 0);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
