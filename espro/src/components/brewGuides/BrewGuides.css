@@ -14,6 +14,22 @@
     max-width: 80% ;
 }
 
+.brewGuidesText h3 {
+    font-size: 0.8rem;
+}
+
+.brewGuidesText p {
+    font-size: 1rem;
+}
+
+.brewGuidesText h2 {
+    font-size: 2rem;
+}
+
+.brewGuidesText button {
+    margin-right: auto;
+}
+
 .brewGuidesImage {
     aspect-ratio: 630/500;
     background-image: url(../../../public/brewGuides.png);
@@ -48,4 +64,14 @@
     right: 0;
     top: -70px;
     width: 145px;
+    animation: slowRotation 10s infinite linear ;
+}
+
+@keyframes slowRotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }

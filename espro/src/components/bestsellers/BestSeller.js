@@ -10,7 +10,7 @@ function BestSeller({element}) {
         <img src={image} ></img>
        </figure>
        
-       <div className='flex-left-column' >
+       <div className='flex-left-column padding1' >
 
         <p><StarRating starsNum={stars} ></StarRating></p>
 

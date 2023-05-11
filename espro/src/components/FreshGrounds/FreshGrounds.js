@@ -1,5 +1,6 @@
 import React from 'react';
 import "./FreshGrounds.css"
+import playButton from '../../assets/images/play-button.svg';
 
 function FreshGrounds() {
     
@@ -16,7 +17,7 @@ function FreshGrounds() {
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.
             </p>
 
-            <button><img alt='>'></img> WATCH FILM</button>
+            <button><img src={playButton} alt='>'></img> WATCH FILM</button>
         </div>
     </div>
   );

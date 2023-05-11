@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Footer.css";
-import ESPRO from "../../assets/images/ESPRO Logo.svg"
+import ESPRO from "../../assets/images/whiteEsproLogo.svg"
 import facebook from "../../assets/images/facebook.svg"
 import instagram from  "../../assets/images/instagram.svg"
 import twitter from "../../assets/images/twitter.svg"
@@ -19,16 +19,17 @@ function Footer() {
                 Sign up to be the first to know about exclusive <br></br> new deals, product launches and more.
                 </p>
             </div>
-            <div>
-                <form>
+            <div className='fg07'>
+                <form className='nmdform'>
                     <input type='email' placeholder='Enter your email address' ></input>
                     <input type='submit'></input>
                 </form>
             </div>
         </div>
         <div className='tackice'>
-            {/* tackiceeeeeeeee */}
-            <p>........................................</p>
+            {Array(30).fill().map(()=> (
+                <div className='tackica'> </div>
+            ))}
         </div>
         <div className='links'>
             <div className='logoDiv'>
@@ -39,7 +40,7 @@ function Footer() {
                 </p>
             </div>
             <div>
-                <h3>Learn</h3>
+                <h3>LEARN</h3>
                 <a>Blog</a>
                 <a>Our Story</a>
                 <a>Brew Guides</a>

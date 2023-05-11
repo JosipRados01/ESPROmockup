@@ -5,7 +5,7 @@ function Product({frontSide, backSide}) {
     <div className='product'>
         <div className='back'> <img src={backSide} ></img> </div>
         <div className='front'> <img src={frontSide} ></img> </div>
-        <button>SHOP NOW</button>
+        <button className='productButton'>SHOP NOW</button>
     </div>
   );
 }
