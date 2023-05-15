@@ -10,7 +10,7 @@ function Products() {
             <Product frontSide={productsArray[1].frontside} backSide={productsArray[1].backside} ></Product>
             <Product frontSide={productsArray[2].frontside} backSide={productsArray[2].backside} ></Product>
         </div>
-        <button>
+        <button className='transparentButton'>
             SHOP ALL PRODUCTS
         </button>
     </div>

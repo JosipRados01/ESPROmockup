@@ -24,7 +24,7 @@ useEffect( ()=> {
              A double micro-filter eliminates grit for your smoothest cup on the go, 
              and the mug fits right in a car cup holder or bike’s water bottle cage.
             </p>
-            <button>SHOP TRAVEL PRESS</button>
+            <button className='transparentButton' >SHOP TRAVEL PRESS</button>
         </div>
         <div className='experienceImage'>
             <img className='inset' src={showing.image} ></img>

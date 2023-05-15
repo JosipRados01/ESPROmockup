@@ -16,7 +16,7 @@ function BrewGuides() {
             And the flavor is just strong enough that you can sense all its nuances across your 10,000 taste buds,
              but not so strong that it’s uncomfortable.<br></br><br></br> It’s an incredible experience—and too often, a hard one to come by.
         </p>
-        <button>LEARN MORE</button>
+        <button className='transparentButton'>LEARN MORE</button>
       </div>
       <div className='anchor'>
         <figure className='brewGuidesImage'>

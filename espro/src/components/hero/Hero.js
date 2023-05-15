@@ -4,6 +4,13 @@ import pourImage from "../../assets/images/2132C2_6.png";
 import { Parallax } from 'react-parallax';
 
 function Hero() {
+
+  const smoothScrollToBestSellers = () => {
+    const bestSellersElement = document.getElementById('bestsellers');
+    bestSellersElement.scrollIntoView({ behavior: 'smooth' });
+  };
+  
+
   return (
     <div className='parallax' >
       <Parallax bgImage={pourImage}>        
@@ -19,7 +26,7 @@ function Hero() {
               POUR ON THE GO
             </button>
           </div>
-          <div className='exploreTag'>
+          <div className='exploreTag' onClick={smoothScrollToBestSellers}>
             <span>EXPLORE</span>
             <img src={downArrow} ></img>
           </div>

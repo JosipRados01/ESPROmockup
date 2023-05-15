@@ -37,3 +37,6 @@
     width: 1rem;
     aspect-ratio: 1;
 }
+.fg_video button {
+    color: white;
+}

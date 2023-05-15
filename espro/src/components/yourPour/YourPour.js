@@ -1,6 +1,7 @@
 import React from 'react';
 import "./YourPour.css"
 import imagesArray from "./yourPourImages.json"
+import igIcon from "../../assets/images/instagram.svg"
 
 //ovdje imagesArray mora imati paran broj slika
 function YourPour() {
@@ -31,7 +32,7 @@ function YourPour() {
                 <h2>SHOW US YOUR BEST POUR.</h2>
                 <p>Making coffee better — one cup at a time.<br></br> Share your best moments with us #ESPRO</p>
             </div>
-            <button><img alt='ig' ></img> FOLLOW US ON INSTAGRAM</button>
+            <button className='transparentButton'><img src={igIcon} alt='ig' ></img> FOLLOW US ON INSTAGRAM</button>
         </div>
 
         

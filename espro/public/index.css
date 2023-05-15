@@ -486,6 +486,15 @@ p {
     margin: 50px auto;
 }
 
+.photobanner >* {
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+.quoteSelected {
+    opacity: 0.7;
+}
+
 
 /* infinite scroll*/
 
@@ -528,6 +537,11 @@ p {
         transform: translate(-50%, 0);
     }
 }
+
+
+
+
+
 
 #infinite-scroll-reverse {
     height: 400px;

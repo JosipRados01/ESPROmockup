@@ -15,3 +15,9 @@
 .yourPourText h2 {
     font-size: 2rem;
 }
+
+.yourPourText button img {
+ width: 1rem;
+ filter: brightness(0.1);
+ margin-bottom: -0.2rem;
+}

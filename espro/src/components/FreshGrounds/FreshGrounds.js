@@ -17,7 +17,7 @@ function FreshGrounds() {
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.
             </p>
 
-            <button><img src={playButton} alt='>'></img> WATCH FILM</button>
+            <button className='transparentButton' ><img src={playButton} alt='>'></img> WATCH FILM</button>
         </div>
     </div>
   );
